@@ -19,8 +19,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit from the custom device configuration.
 $(call inherit-product, device/nothing/phone1/device.mk)
 
-# Inherit from the Neoteric configuration.
-$(call inherit-product, vendor/neoteric/target/product/neoteric-target.mk)
+# Inherit from the AOSPA configuration.
+$(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
 
 PRODUCT_BRAND := Nothing
 PRODUCT_DEVICE := phone1
